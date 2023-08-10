@@ -1,0 +1,52 @@
+# Arquivos de compilação e executáveis
+*.o
+*.out
+
+# Arquivos temporários
+*~
+
+# Arquivos gerados por IDEs
+.idea/
+.vscode/
+
+# Arquivos de configuração
+*.cfg
+*.conf
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos gerados por ferramentas de depuração
+*.dSYM/
+
+# Arquivos de log
+*.log
+
+# Arquivos de documentação gerados
+*.doc
+*.pdf
+
+# Arquivos de cache
+*.cache
+
+# Arquivos gerados pelo CMake
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Makefile
+
+# Arquivos de projeto específicos
+projectfile.cproj
+
+# Ignorar diretórios bin e build
+bin/
+build/
+
+# Ignorar arquivos executáveis
+*.exe
+
+# Ignorar arquivos de bibliotecas compartilhadas
+*.dll
+*.so
+*.dylib

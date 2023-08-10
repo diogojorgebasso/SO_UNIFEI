@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 void modifyArray(int arr[])
 {
   arr[0] = 100;

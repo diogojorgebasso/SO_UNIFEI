@@ -22,6 +22,8 @@ Prof Otávio Gomes (otavio.gomes@unifei.edu.br)
 
 ```
 
+Resposta: 100
+
 ### 2. Qual é o algoritmo de ordenação utilizado no seguinte trecho de código?
 
 ```cpp
@@ -36,6 +38,8 @@ selectionSort(nums, size);
 return 0;
 }
 ```
+
+Resposta: Qualquer algoritmo de ordenação pode ser utilizado. Um exemplo está listado na pasta `/projetos/Aula 1/ex2.c`
 
 ### 3. Qual é a saída deste código?
 
@@ -54,6 +58,8 @@ return 0;
    return 0;
    }
 ```
+
+Resposta: 4 1 7 3 9
 
 ### 4. Qual será o valor após a execução deste código?
 
@@ -75,6 +81,8 @@ return 0;
 }
 ```
 
+Resposta: 30
+
 ### 5. Qual é a saída esperada deste código?
 
 ```cpp
@@ -88,7 +96,9 @@ return 0;
 }
 ```
 
-### 6. Qual será o valor de result após a execução deste código?
+Resposta: 5
+
+### 6. Qual será o valor de resultado após a execução deste código?
 
 ```cpp
 #include <stdio.h>
@@ -108,6 +118,8 @@ printf("%d\n", result);
 return 0;
 }
 ```
+
+Resposta: 43
 
 ### 7. O que o seguinte código faz?
 
@@ -134,6 +146,8 @@ printf("%d ", nums[i]);
 return 0;
 }
 ```
+
+Resposta: Inverte a ordem dos elementos do vetor
 
 ### 8. Criação de um programa em C
 
@@ -168,7 +182,7 @@ a) Escreva uma função para ordenar uma fila em ordem crescente de seus
 valores (prioridade).
 
 b) Suponha que n tarefas devem ser processadas em um único processador.
-Dadas as durações t1 até tn das tarefas (int), em que ordem elas devem ser
+Dadas as durações t_1 até t_n das tarefas (int), em que ordem elas devem ser
 processadas para minimizar o tempo médio de conclusão de uma tarefa?
 Desenvolva um programa em linguagem C que resolva este problema de
 escalonamento de tarefas.
